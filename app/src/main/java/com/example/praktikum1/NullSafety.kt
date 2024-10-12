@@ -31,6 +31,6 @@ fun nullSafety() {
     println(strLength(neverNull)) //
 }
 
-fun main() {hhff
+fun main() {
     nullSafety()
 }
