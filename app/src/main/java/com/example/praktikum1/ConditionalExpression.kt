@@ -24,4 +24,28 @@ fun ConditionalStatment(){
         else -> println("Invalid Day")
 
     }
+
+    // Try-Catch
+    val value = "10"
+    try {
+        val result = value.toInt()
+        println("Result: $result")
+    } catch (e: NumberFormatException) {
+        println("Invalid Number")
+    }
+}
+
+fun Perulangan() {
+    println()
+    println("Perulangan")
+
+    for (i in 1..5) {
+        println("Perulangan ke-$i")
+    }
+
+    val cars = listOf("BMW", "Toyota", "Honda", "Audi")
+    for (car in cars) {
+        println("Car type: $car")
+
+    }
 }
