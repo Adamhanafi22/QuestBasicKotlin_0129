@@ -10,3 +10,15 @@ fun withParameter(name: String) {
     println("== withParameter ==")
     println("Hello, $name!")
 }
+
+// named argument (memanggil fungsi dengan menyebutkan nama parameter)
+fun withNamedArgument(name: String, age: Int) {
+    println("== withNamedArgument ==")
+    println("Hello, $name! You are $age years old.")
+}
+
+// default parameter value (memberikan nilai default pada parameter fungsi)
+fun withDefaultParameter(name: String = "Indra", age: Int) {
+    println("== withDefaultParameter ==")
+    println("Hello, $name! You are $age years old.")
+}
